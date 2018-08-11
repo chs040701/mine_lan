@@ -1,0 +1,43 @@
+#include <Windows.h>
+
+#define ID_CREATE	1000
+#define ID_JOIN		1001
+#define ID_LIST		1102
+#define ID_START	1002
+#define ID_QUIT		1003
+#define ID_BACK		1004
+#define ID_PB		10000
+#define ID_MINE		2001
+#define ID_MINENUM		2002
+#define MAMPLAYERNUM 16
+#define WM_GAMESTART WM_USER+0x100
+#define MM_SET		WM_USER+0x101
+#define MM_GAMEOVER WM_USER+0x102
+#define WM_GAMEBACK WM_USER+0x103
+#define MM_SETTIME WM_USER+0x104
+#define MM_MINENUM WM_USER+0x105
+#define MM_WIN WM_USER+0x106
+
+#define MINE_LCLICK	WM_USER+0x200
+#define MINE_RCLICK WM_USER+0x201
+#define MINE_RLCLICK WM_USER+0x202
+
+#define SETVAL 0x3100
+
+#define TIMER 0x3200
+
+#define IDB_MM	0x8000
+#define IDB_NUM 0x8001
+#define IDB_FACE 0x8002
+#define ID_ICON 0x8100
+
+#define IDD_DIALOG1 0x4000
+#define IDD_DIALOG2 0x4001
+#define IDC_BUTTON1 0x4100
+#define IDC_BUTTON2 0x4101
+#define IDC_BUTTON3 0x4102
+#define IDC_EDIT1 0x4200
+#define IDC_EDIT2 0x4201
+#define IDC_EDIT3 0x4202
+
+#define IDC_STATIC 0x5000
